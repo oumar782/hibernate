@@ -32,6 +32,46 @@ const questions = [
     ],
     correctAnswer: 2,
   },
+  {
+  question: "Quel fichier de configuration est utilisé par défaut dans Hibernate ?",
+  options: [
+    "hibernate.cfg.xml",
+    "hibernate.properties",
+    "application.yml",
+    "hibernate.config"
+  ],
+  correctAnswer: "hibernate.cfg.xml",
+},
+{
+  question: "Quelle annotation Hibernate est utilisée pour définir une entité ?",
+  options: [
+    "@Entity",
+    "@Table",
+    "@Id",
+    "@Column"
+  ],
+  correctAnswer: "@Entity",
+},
+{
+  question: "Quelle est la principale fonction de l'interface `Session` d'Hibernate ?",
+  options: [
+    "Fournir une interface pour les opérations CRUD",
+    "Fournir une connexion réseau",
+    "Gérer les transactions dans les bases de données",
+    "Gérer les utilisateurs"
+  ],
+  correctAnswer: "Fournir une interface pour les opérations CRUD",
+},
+{
+  question: "Comment Hibernate mappe-t-il les entités aux tables de base de données ?",
+  options: [
+    "En utilisant les annotations ou un fichier XML de mapping",
+    "En utilisant uniquement un fichier XML",
+    "En utilisant une configuration spécifique dans le fichier `application.yml`",
+    "En utilisant des tables de correspondance"
+  ],
+  correctAnswer: "En utilisant les annotations ou un fichier XML de mapping",
+}
 ];
 
 const Quiz = () => {
